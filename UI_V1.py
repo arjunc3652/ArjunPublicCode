@@ -23,14 +23,14 @@ def show():
 
 
 y=int(index_position)
-def input_position():
+def input_position(y):
     input_value=input('Choose a value to put in index position {}'.format(y))
 
 
 
 show()
 
-input_position()
+input_position(y)
 
 
 
